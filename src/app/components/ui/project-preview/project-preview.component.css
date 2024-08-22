@@ -1,0 +1,33 @@
+.project-item {
+  width: 451px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3vh;
+}
+.image {
+  max-width: 451px;
+  height: 270px;
+  object-fit: contain;
+}
+.more-button {
+  width: 175px;
+  height: 43px;
+  padding: 8px 8px 8px 8px;
+  background: #144B76;
+  color: #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.s-text{
+  font-size: 14px;
+  font-family: Helvetica, serif;
+}
+.project-name{
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

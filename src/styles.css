@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Helvetica;
+  src: url("./assets/fonts/helvetica_regular.otf");
+}
+.all-page{
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 3vh;
+  margin: 0 auto;
+}
+.head-text{
+  font-size: 60px;
+}
+.cy{
+  display: flex;
+  align-items: center;
+}
+.cx{
+  display: flex;
+  justify-content: center;
+}
+.cxy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col{
+  flex-direction: column;
+}
+.df{
+  display: flex;
+}
+.align-end{
+  align-items: end;
+}
+.pb-2vh{
+  padding-bottom: 2vh;
+}
+.pt-2vh{
+  padding-top: 2vh;
+}

@@ -1,0 +1,13 @@
+.image {
+  width: 1463px;
+  height: 829px;
+}
+.statistic {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.name {
+  font-family: Helvetica, serif;
+}
